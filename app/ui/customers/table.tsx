@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import Search from '@/app/ui/search';
 import {
