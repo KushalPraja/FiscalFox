@@ -8,8 +8,8 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+    <main className="flex min-h-screen flex-col p-6 bg-green-300">
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-green-800 p-4 md:h-52">
         {  <AcmeLogo /> }
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
@@ -18,11 +18,9 @@ export default function Page() {
             className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
           />
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal antialiased`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <strong>Welcome to Fiscal Fox.</strong> This is a dashboard project
+            that helps you manage your finances and investments inspired by the <strong><a href="https://nextjs.org/learn/dashboard-app/">ACME</a> </strong>Project.
+
           </p>
           <Link
             href="/login"
